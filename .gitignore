@@ -1,0 +1,17 @@
+#Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+testignore.txt
+
+# Python 忽略Python编译产生的.pyc、.pyo、dist等文件或目录:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+#My configuretion
+db.ini
+deploy_key_rsa
