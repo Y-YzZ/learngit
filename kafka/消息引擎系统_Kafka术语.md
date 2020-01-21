@@ -24,5 +24,7 @@ Kafka同时支持以下两种消息引擎模型
 
 高可用
 - 将Broker分散运行在不同机器上，保证一台机器宕机后，其他机器的Broker也依然能够对外提供服务。（虽然多个Broker进程也可以运行在同一机器上）
-- 备份机制（Replication）:
+- 备份机制（Replication）：把相同的数据拷贝到多台机器上，相同的数据拷贝叫做副本（Replica）
+- 领导者副本（Leader Replica）: 对外提供服务，与客户端程序进行交互
+- 追随者副本（Follower Replica）：
 
