@@ -10,6 +10,7 @@ testignore.txt
 *.egg
 *.egg-info
 .idea
+.vscode
 dist
 build
 
