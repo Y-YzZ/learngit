@@ -1,7 +1,2 @@
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.
-Git tracks changes of files.
-I have an apple.
-My boss still prefers SVN.
-What's for lunch?
+master分支只是学习git的练习
+dev分支为学习分支的各种内容
